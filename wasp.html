@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CandyLand - Programming Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="templatemo-neural-style.css" rel="stylesheet">
+    <style>
+        /* Center content */
+        .project-container {
+            max-width: 900px;
+            margin: 100px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .project-container h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .project-container p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
+        .tools-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .tool-item {
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 12px;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: 0.3s;
+        }
+
+        .tool-item:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .project-image {
+            max-width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            margin-bottom: 30px;
+        }
+
+        .buttons-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .project-button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1rem;
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .project-button:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Background -->
+    <div class="neural-background"></div>
+    <div class="geometric-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="neural-lines">
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+        <div class="neural-line"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="glass">
+        <nav>
+            <a href="index.html" class="logo">← Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <!-- Project Content -->
+    <section class="project-container glass">
+        <h1>Women's Alert and Safety Platform 👩</h1>
+        <p>We created the Women's Alert and Safety Program (WASP) to aid women struggling with sexism and inappropriate sexual advances. We see women facing grave injustices, story after story, headline after headline. Their desperate solicitations are rapidly silenced, leaving them to endure their trauma and fear alone. The anonymity of WASP allows women, specific women in schools, to reach out and receive support from their classmates with similar fears and experiences. WASP also acts as a communication platform where alerts and precautions are posted.
+
+        </p>
+
+        <!-- Tools/Languages -->
+        <div class="tools-list">
+            <span class="tool-item">Python</span>
+            <span class="tool-item">SQLite</span>
+            <span class="tool-item">HTML/CSS</span>
+            <span class="tool-item">json</span>
+            <span class="tool-item">Flask</span>
+            <span class="tool-item">OpenAI API</span>
+            <span class="tool-item">Google Maps API</span>
+            <span class="tool-item">Twilio API</span>
+            <span class="tool-item">Visual Studio Code</span>
+            
+        </div>
+
+        <!-- Project Image -->
+        <img src="images/wasp.jpg" alt="CandyLand Screenshot" class="project-image">
+
+
+
+        <!-- Buttons -->
+        <div class="buttons-container">
+            <a href="index.html" class="project-button">← Back to Portfolio</a>
+            <a href="https://devpost.com/software/wasp-women-s-alert-and-safety-platform" target="_blank" class="project-button">View on Devpost</a>
+        </div>
+
+    </section>
+</body>
+</html>
